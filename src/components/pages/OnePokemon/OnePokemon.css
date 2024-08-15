@@ -1,0 +1,13 @@
+.pokemon-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+.pokemon-card-container.visible {
+    opacity: 1;
+}
